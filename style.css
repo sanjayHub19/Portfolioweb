@@ -1,0 +1,92 @@
+.body  {
+background-color: black;
+}
+.m-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.header{
+    background-color: aquamarine    ;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #252323;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 8px 10px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #eae8ed;
+    color: black;
+  }
+
+.navigation-link{
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+border:  2px solid black;
+border-radius: 0.5rem;
+padding: 10px;
+
+}
+.navigation-link-hover{
+    text-decoration:black;
+    border-radius: 2px solid rgb(235, 7, 7);
+    transition: o.5s ease;
+}
+
+.main-container{  
+    width: 5px;  
+    min-height: 100vh;
+    padding-top: 5rem;
+    background-color:darkgray;
+    justify-content: center;
+    
+}
+.container-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.main-row{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+}
+.main-row-img{
+    height: 80vh;
+    width:5px;
+}
+#about{
+    background-color:darkgray;
+    border-radius: 0.5rem;
+
+}
+.card{
+    background-color: aqua;
+    border-bottom: 5px solid red;
+    padding: 10px;
+    margin: 2rem;
+    height: 75vh;
+    border: 5px solid red;
+    image-resolution: 50vh;
+}
+.media_link-btn{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: solid rgb(129, 14, 14);
+    border-radius: 0.5rem
+}
